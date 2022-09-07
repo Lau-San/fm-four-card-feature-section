@@ -4,16 +4,16 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Table of contents
 
-- [Frontend Mentor - Four card feature section solution](#frontend-mentor---four-card-feature-section-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-  - [Author](#author)
+-   [Frontend Mentor - Four card feature section solution](#frontend-mentor---four-card-feature-section-solution)
+    -   [Table of contents](#table-of-contents)
+    -   [Overview](#overview)
+        -   [The challenge](#the-challenge)
+        -   [Screenshot](#screenshot)
+        -   [Links](#links)
+    -   [My process](#my-process)
+        -   [Built with](#built-with)
+        -   [What I learned](#what-i-learned)
+    -   [Author](#author)
 
 ## Overview
 
@@ -31,8 +31,8 @@ Users should be able to:
 
 <!-- TODO Add Solution URL -->
 <!-- - [View solution in Frontend Mentor](https://your-solution-url.com) -->
-<!-- TODO Add Demo URL -->
-<!-- - [Go to Demo](https://your-live-site-url.com) -->
+
+-   [Go to Demo](https://lau-san.github.io/fm-four-card-feature-section/)
 
 ## My process
 
