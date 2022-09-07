@@ -1,0 +1,40 @@
+@use '../abstracts/breakpoints' as bp;
+
+// Grid
+
+.grid {
+	display: grid;
+
+	&-stack {
+		@extend .grid;
+		grid-template-columns: 1fr;
+	}
+
+	&.flow-col {
+		@include bp.breakpoint('lg') {
+			grid-auto-flow: column;
+		}
+	}
+
+	&.cols-3 {
+		@extend .grid-stack;
+
+		@include bp.breakpoint('lg') {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
+	&.rows-2 {
+		@include bp.breakpoint('lg') {
+			grid-template-rows: 1fr 1fr;
+		}
+	}
+}
+
+// Grid items
+
+.rowspan-all {
+	@include bp.breakpoint('lg') {
+		grid-row: 1 / -1;
+	}
+}

@@ -1,0 +1,9 @@
+.flex {
+	display: flex;
+
+	&-stack {
+		@extend .flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+}

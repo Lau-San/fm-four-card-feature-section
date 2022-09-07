@@ -1,0 +1,15 @@
+@use 'sass:math';
+
+@function px-to-rem($pixels) {
+	@if not math.is-unitless($pixels) {
+		@error '$pixels has to be a number without units';
+	}
+	@return math.div($pixels, 16) * 1rem;
+}
+
+@function px-to-em($pixels) {
+	@if not math.is-unitless($pixels) {
+		@error '$pixels has to be a number without units';
+	}
+	@return math.div($pixels, 16) * 1em;
+}

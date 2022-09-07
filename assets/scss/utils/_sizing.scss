@@ -1,0 +1,23 @@
+@use '../abstracts/functions' as f;
+@use '../abstracts/breakpoints' as bp;
+
+.w {
+	&-85 {
+		@extend .w;
+		width: 85%;
+	}
+}
+
+.maxw {
+	&-md {
+		max-width: f.px-to-rem(550);
+	}
+
+	&-lg {
+		max-width: f.px-to-rem(700);
+
+		@include bp.breakpoint(lg) {
+			max-width: f.px-to-rem(1200);
+		}
+	}
+}

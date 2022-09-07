@@ -1,0 +1,23 @@
+@use '../abstracts/breakpoints' as bp;
+
+.content-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.align {
+	&-center {
+		align-self: center;
+	}
+
+	&-end {
+		align-self: end;
+	}
+}
+
+.justify {
+	&-center {
+		justify-self: center;
+	}
+}

@@ -13,8 +13,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
 
 ## Overview
@@ -27,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- TODO Add screenshots -->
+![](./screenshot.png)
 
 ### Links
 
@@ -40,27 +38,16 @@ Users should be able to:
 
 ### Built with
 
-<!-- TODO Update this -->
-
-<!-- - Semantic HTML5 markup -->
-<!-- - CSS custom properties -->
+-   CSS custom properties
 -   Flexbox
-<!-- - CSS Grid -->
-<!-- - Mobile-first workflow -->
+-   CSS Grid
+-   Mobile-first workflow
 -   [Sass](https://sass-lang.com)
 -   [Cube CSS](https://https://cube.fyi/) - A CSS Methodology
 
 ### What I learned
 
-<!-- TODO Write this -->
-
-### Continued development
-
-<!-- TODO Write this -->
-
-### Useful resources
-
-<!-- TODO Write this -->
+I got to check out the CUBE CSS Methodology.
 
 ## Author
 

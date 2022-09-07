@@ -4,12 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32"
     href="./assets/images/favicon-32x32.png">
 
   <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+    rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="./assets/css/main.css">
@@ -17,25 +23,60 @@
 </head>
 
 <body>
-  <!-- TODO Structure -->
 
-  Reliable, efficient delivery
-  Powered by Technology
+  <main class="content-center py-xl">
+    <section class="grid-stack gap-xl w-85 maxw-lg">
 
-  Our Artificial Intelligence powered tools use millions of project data points
-  to ensure that your project is successful
+      <div class="flex-stack gap-xm justify-center text-center maxw-md">
+        <h2 class="flex-stack">
+          Reliable, efficient delivery
+          <span class="bold">Powered by Technology</span>
+        </h2>
+        <p>
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </div>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+      <div class="grid flow-col cols-3 rows-2 gap-sm">
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+        <div class="[ card ] [ flex-stack rowspan-all align-center ]"
+          data-color="cyan">
+          <h3>Supervisor</h3>
+          <p class="mt-xxs">Monitors activity to identify project roadblocks</p>
+          <img class="align-end mt-md" src="./assets/images/icon-supervisor.svg"
+            alt="">
+        </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+        <div class="[ card ] [ flex-stack ]" data-color="red">
+          <h3>Team Builder</h3>
+          <p class="mt-xs">
+            Scans our talent network to create the optimal team for your project
+          </p>
+          <img class="align-end mt-md"
+            src="./assets/images/icon-team-builder.svg" alt="">
+        </div>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+        <div class="[ card ] [ flex-stack ]" data-color="orange">
+          <h3>Karma</h3>
+          <p class="mt-xs">Regularly evaluates our talent to ensure quality</p>
+          <img class="align-end mt-md" src="./assets/images/icon-karma.svg"
+            alt="">
+        </div>
+
+        <div class="[ card ] [ flex-stack rowspan-all align-center ]"
+          data-color="blue">
+          <h3>Calculator</h3>
+          <p class="mt-xs">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <img class="align-end mt-md" src="./assets/images/icon-calculator.svg"
+            alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+
 
   <!-- <footer>
     <p class="attribution">

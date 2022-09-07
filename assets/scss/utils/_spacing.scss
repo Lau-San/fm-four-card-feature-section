@@ -1,0 +1,71 @@
+// Flex and Grid gap
+// ----------
+
+$space-xxs: 0.4rem;
+$space-xs: 1em;
+$space-sm: 1.5rem;
+$space-md: 2.5rem;
+$space-lg: 3rem;
+$space-xl: 4rem;
+
+.gap {
+	&-xm {
+		gap: $space-xs;
+	}
+
+	&-sm {
+		gap: $space-sm;
+	}
+
+	&-md {
+		gap: $space-md;
+	}
+
+	&-lg {
+		gap: $space-lg;
+	}
+
+	&-xl {
+		gap: $space-xl;
+	}
+}
+
+// Padding
+// ----------
+
+.p {
+	&y {
+		&-xl {
+			padding-block: $space-xl;
+		}
+	}
+}
+
+// Margin
+// ----------
+
+.m {
+	&y {
+		&-xl {
+			margin-block: $space-xl;
+		}
+	}
+
+	&t {
+		&-xs {
+			margin-top: $space-xxs;
+		}
+
+		&-sm {
+			margin-top: $space-sm;
+		}
+
+		&-md {
+			margin-top: $space-md;
+		}
+
+		&-lg {
+			margin-top: $space-lg;
+		}
+	}
+}
