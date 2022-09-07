@@ -13,6 +13,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
     -   [My process](#my-process)
         -   [Built with](#built-with)
         -   [What I learned](#what-i-learned)
+        -   [Useful resources](#useful-resources)
     -   [Author](#author)
 
 ## Overview
@@ -48,6 +49,10 @@ Users should be able to:
 ### What I learned
 
 I got to check out the CUBE CSS Methodology.
+
+### Useful resources
+
+-   [Sass, BEM and Responsive Design](https://www.youtube.com/watch?v=jfMHA8SqUL4) - Again, this course by CoderCoder helped me understand some Sass comcepts, in this case, mixins and functions.
 
 ## Author
 
